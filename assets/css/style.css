@@ -99,6 +99,14 @@ p {
     color: #ffffff;
 }
 
+/* Merged multiple headers into one and placed them near eachother */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -109,6 +117,8 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Tried to make the blocks share one class, but I ended up breaking the site */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -149,17 +159,14 @@ h3 {
     max-height: 200px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* Gave the footer a class of h4 instead of h2 */
 
 footer h4 {
     font-size: 20px;
